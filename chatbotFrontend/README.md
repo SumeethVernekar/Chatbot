@@ -156,12 +156,4 @@ Build output appears in:
 * For new pages (like History page), create separate components.
 * For deployment, use services like **Vercel**, **Netlify**, or **GitHub Pages**.
 
----
 
-## 💬 Need Help?
-
-Just tell me:
-**"Generate History Page"**, **"Fix UI"**, or **"Add animations"**
-and I’ll continue building your project.
-
----
