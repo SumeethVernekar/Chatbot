@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# 🔥 CodeVision UI — React Project
+=======
 # Chatbot Frontend (React + Vite)
 
 This repository contains a React frontend built with Vite. It includes a chat UI component, Tailwind CSS for styling, and development tooling (ESLint, PostCSS).
@@ -109,18 +112,166 @@ Contact / support
 Generated README for the Chatbot Frontend project.
 
 # React + Vite
+>>>>>>> d5221a8de523f8b2c86ea213a2fb9a1ac09bf261
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive React-based UI for an AI code-to-video explanation tool.
+This project includes a sidebar with menu options like **Chats**, **History**, **Settings**, **About**, **Help**, and **Theme Toggle**.
+Latest update includes the **History option in the menu**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* Modern Sidebar Layout
+* Chats Section
+* NEW: **History Section Added**
+* Settings & About Pages
+* Help & Support Button
+* Theme Toggle (Dark / Light Mode)
+* Clean UI written in **App.jsx** & **App.css**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+root/
+├── App.jsx
+├── App.css
+├── index.js
+└── README.md
+```
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Install Node.js
+
+Download from: [https://nodejs.org](https://nodejs.org)
+(Recommended: LTS version)
+
+### 2️⃣ Install Dependencies
+
+Navigate into your project folder and run:
+
+```
+npm install
+```
+
+### 3️⃣ Start Development Server
+
+```
+npm start
+```
+
+### 4️⃣ Open in Browser
+
+React will auto-open or visit:
+
+```
+http://localhost:3000/
+```
+
+---
+
+## 🧩 Usage
+
+### Sidebar Includes:
+
+* **Chats** → Shows chat section
+* **History** → Newly added history option
+* **Settings** → Preference options
+* **About** → App description
+* **Help & Support** → Assistance section
+* **Theme Toggle** → Switch between Dark/Light mode
+
+Modify the UI inside:
+
+* `App.jsx` (UI + Logic)
+* `App.css` (Styles)
+
+---
+
+## ❗ Common Errors & Fixes
+
+### ❌ Error: `Module not found: Can't resolve 'lucide-react'`
+
+The icons require lucide-react.
+Fix:
+
+```
+npm install lucide-react
+```
+
+---
+
+### ❌ Error: `Unexpected token <` or white screen
+
+Occurs when React fails to compile.
+
+Fix:
+
+```
+npm install
+npm start
+```
+
+or ensure your `App.jsx` has **default export**:
+
+```
+export default App;
+```
+
+---
+
+### ❌ Error: Styles not applying
+
+Ensure the stylesheet is imported at the top of `App.jsx`:
+
+```
+import './App.css';
+```
+
+---
+
+### ❌ Error: Theme toggle not working
+
+Make sure you included the Dark Mode class in `index.css` or global CSS:
+
+```
+.dark {
+  background: #111;
+  color: #fff;
+}
+```
+
+---
+
+## 🧪 Running Production Build
+
+To create optimized build:
+
+```
+npm run build
+```
+
+Build output appears in:
+
+```
+/build
+```
+
+---
+
+## 📝 Final Notes
+
+* Keep `App.jsx` clean and avoid inline styles for maintainability.
+* For new pages (like History page), create separate components.
+* For deployment, use services like **Vercel**, **Netlify**, or **GitHub Pages**.
+
+---
+
+
+
+---
