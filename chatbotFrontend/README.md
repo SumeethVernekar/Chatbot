@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # 🔥 CodeVision UI — React Project
-=======
+
 # Chatbot Frontend (React + Vite)
 
 This repository contains a React frontend built with Vite. It includes a chat UI component, Tailwind CSS for styling, and development tooling (ESLint, PostCSS).
